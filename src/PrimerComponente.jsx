@@ -1,12 +1,5 @@
-import { Component } from "react";
-
-class PrimerComponente extends Component {
-    state = {}
-    render() {
-        return(
-            <h1>Hola blonder</h1>
-        )
-    }
+export const PrimerComponente = () => {
+    return (
+        <h1>Primer Componente</h1>
+    )
 }
-
-export default PrimerComponente
