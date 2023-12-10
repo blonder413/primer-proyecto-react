@@ -1,3 +1,5 @@
+import './PrimerComponente.css'
+
 const string = "esto es un texto"
 const number = 413
 const array = ["reactjs", "javascript"]
