@@ -2,3 +2,20 @@ body {
     background-color: #222;
     color: #ccc;
 }
+
+.btn {
+    border: 0;
+    display: inline-block;
+    margin: 1em;
+    padding: .5em;
+}
+
+.btn-primary {
+    background-color: darkgoldenrod;
+    color:ghostwhite;
+}
+
+.btn-primary:hover {
+    background-color: goldenrod;
+    cursor: pointer;
+}

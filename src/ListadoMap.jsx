@@ -37,7 +37,7 @@ export const ListadoMap = () => {
                     ></Items>
                 ))}
             </ol>
-            <button onClick={() => agregarTarea()}>Agregar tarea</button>
+            <button className="btn btn-primary" onClick={() => agregarTarea()}>Agregar tarea</button>
         </>
     );
 };
