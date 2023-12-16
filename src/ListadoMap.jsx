@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { AregarTarea } from "./components/AgregarTarea";
 
 const Items = ({ nombre, visto }) => {
     return (
@@ -28,6 +29,7 @@ export const ListadoMap = () => {
     return (
         <>
             <h1>Listado App</h1>
+            <AregarTarea></AregarTarea>
             <ol>
                 {arreglo.map((item) => (
                     <Items
@@ -37,7 +39,6 @@ export const ListadoMap = () => {
                     ></Items>
                 ))}
             </ol>
-            <button className="btn btn-primary" onClick={() => agregarTarea()}>Agregar tarea</button>
         </>
     );
 };
