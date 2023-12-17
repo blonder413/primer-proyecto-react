@@ -29,7 +29,7 @@ export const ListadoMap = () => {
     return (
         <>
             <h1>Listado App</h1>
-            <AregarTarea></AregarTarea>
+            <AregarTarea agregarTarea={setArreglo}></AregarTarea>
             <ol>
                 {arreglo.map((item) => (
                     <Items
